@@ -1,0 +1,21 @@
+{
+    "name": "ale/money_solver",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MaxKaufman",
+            "email": "susl1k123@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoneySolver\\": "src/"
+        }
+    }
+}
