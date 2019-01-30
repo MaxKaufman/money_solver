@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Ale
- * Date: 29.01.2019
- * Time: 23:21
- */
+function USD(int $price): \MoneySolver\CurrencyInterface
+{
+    return new MoneySolver\Currency("USD", $price);
+}
+
+function RUB(int $price): \MoneySolver\CurrencyInterface
+{
+    return new MoneySolver\Currency("RUB", $price);
+}
+

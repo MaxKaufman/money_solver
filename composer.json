@@ -16,6 +16,7 @@
     "autoload": {
         "psr-4": {
             "MoneySolver\\": "src/"
-        }
+        },
+        "files": ["src/helper.php"]
     }
 }
